@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meter Reading Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upload-box">
+            <h2>Meter Reading Upload</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="file-upload">
+                    <input type="file" name="file" id="fileInput">
+                    <button type="submit">Upload</button>
+                </div>
+            </form>
+            <div id="response"></div>
+        </div>
+        <div class="delete-box">
+            <button id="deleteButton">Delete All Meter Readings</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
