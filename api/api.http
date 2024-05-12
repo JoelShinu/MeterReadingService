@@ -1,0 +1,5 @@
+@api_HostAddress = http://localhost:5194
+
+### Upload Meter Readings
+POST {{api_HostAddress}}/meter-reading-uploads
+Content-Type: multipart/form-data
